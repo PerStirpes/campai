@@ -1,0 +1,31 @@
+{
+  "name": "bolt",
+  "version": "0.1.0",
+  "description": "",
+  "main": "deck.mdx",
+  "dependencies": {
+    "@smooth-ui/core-sc": "^7.0.5",
+    "mdx-deck": "^1.8.2",
+    "react": "^16.7.0",
+    "rebass": "^3.0.0-12"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "start": "mdx-deck deck.mdx",
+    "build": "mdx-deck build deck.mdx",
+    "pdf": "mdx-deck pdf deck.mdx",
+    "image": "mdx-deck screenshot deck.mdx",
+    "help": "mdx-deck"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PerStirpes/txt-sender.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/PerStirpes/txt-sender/issues"
+  },
+  "homepage": "https://github.com/PerStirpes/txt-sender#readme"
+}
